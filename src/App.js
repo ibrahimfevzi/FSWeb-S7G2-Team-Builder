@@ -53,7 +53,7 @@ function App() {
         {teamMembers.map((member, index) => (
           <li key={index}>
             {member.name} - {member.email} - {member.role}
-            <button onClick={() => duzenle(member)}>Düzenle</button>
+            <button onClick={() => duzenle(member)}>Edit</button>
           </li>
         ))}
       </ul>
